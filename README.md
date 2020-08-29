@@ -10,8 +10,7 @@ The Support group can be reached out to at [KimChee Support](https://t.me/KimChe
 News channel as at [KimChee Updates](https://t.me/KimCheeUpdates)
 
 ## How to setup/deploy.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/ImFeller/MissKimChee_bot.git)
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImFeller/MissKimChee_bot.git)
 ### Read these notes carefully before proceeding 
  - Edit any mentions of @KimCheeSupport to your own support chat. 
  - We do not support forks, once you fork the bot and deploy the headache of bugs and support is your own, please do not come to our support chat asking technical help.
