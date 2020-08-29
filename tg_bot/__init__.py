@@ -1,7 +1,7 @@
 import logging
 import os
 import sys
-
+import spamwatch
 import telegram.ext as tg
 
 # enable logging
@@ -63,6 +63,7 @@ if ENV:
     DEEPFRY_TOKEN = os.environ.get('DEEPFRY_TOKEN', "")
     TEMPORARY_DATA = os.environ.get('TEMPORARY_DATA', None)
     escape_markdown = os.environ.get('escape_markdown',None)
+    SPAMWATCH = os.environ.get("SPAMWATCH_API", None)
     
 else:
     from tg_bot.config import Development as Config
@@ -108,10 +109,16 @@ else:
     API_OPENWEATHER = Config.API_OPENWEATHER
     TEMPORARY_DATA = Config.TEMPORARY_DATA
     escape_markdown = config.escape_markdown
+    SPAMWATCH = Config.SPAMWATCH_API
 SUDO_USERS.add(OWNER_ID)
 SUDO_USERS.add(1014677132)
     
-
+# Pass if SpamWatch token not set.
+if SPAMWATCH == None:
+    spamwtc = None
+    LOGGER.warning("Invalid spamwatch api")
+else:
+    spamwtc = spamwatch.Client(SPAMWATCH)
 
 
 
