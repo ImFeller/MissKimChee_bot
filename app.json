@@ -1,5 +1,5 @@
 {
-  "name": "JokerMan",
+  "name": "MissKimChee",
   "description": "Advanced Group Modular bot for Telegram",
   "keywords": [
     "telegram",
@@ -8,7 +8,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/StingxD/JokerMan_Pro",
+  "repository": "https://github.com/ImFeller/MissKimChee_bot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -19,7 +19,7 @@
       "value": ""
     },
     "OWNER_ID": {
-      "description": "Go to @JokerMan_ProBot And Type /id to get your id",
+      "description": "Go to @MissKimChee_bot And Type /id to get your id",
       "value": "1014677132"
     },
     "OWNER_USERNAME": {
