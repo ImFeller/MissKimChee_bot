@@ -29,7 +29,7 @@ def escape_html(word):
 PM_START_TEXT = """
 Hello *{}* My name is *Kim Chee*!
 
-I sm s character of anime and i will help you managing your groups . Hit /help To Find Out More About How To Use My Full Potential Use!
+I Am A Character Of Anime And I Will Help You Managing Your Groups . Hit /help To Find Out More About How To Use My Full Potential Use!
 
 Want To Add Me Into Your Chats? [Click Here!](https://t.me/MissKimChee_bot?startgroup=true)
 """
