@@ -38,6 +38,11 @@
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
       "value": "1014677132"
     },
+      "sw_api": {
+         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
+         "required": true,
+         "value": ""
+    },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
       "value": "1014677132"
